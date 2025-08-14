@@ -28,7 +28,7 @@ pip install "apache-airflow==${AIRFLOW_VERSION}" --constraint "${CONSTRAINT_URL}
 export AIRFLOW_HOME=~/airflow
 airflow db init
 ```
-Find DAGs in `~/airflow/dags/`
+DAGs are not actually kept within the project folder. They are located in `~/airflow`. The Python files within this repo are meant to showcase what the DAG file looks like.
 
 # Airflow
 ```

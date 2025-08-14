@@ -1,1 +1,0 @@
-DAGs are not actually kept within the project folder. They are located in `~/airflow`. This folder (`airflow_quickstart/dags/`) is just meant to showcase what the DAG file looks like.
